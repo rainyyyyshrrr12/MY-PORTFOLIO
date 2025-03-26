@@ -1,0 +1,131 @@
+body{
+    background-color: rgb(10, 10, 56);
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+NAV{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80PX;
+    background-color: rgb(35, 35, 98);
+}
+
+NAV UL{
+    display: flex;
+    justify-content: center;
+}
+
+NAV UL LI{
+    list-style: NONE;
+    margin: 0 23PX;
+}
+
+NAV UL LI a{
+    text-decoration: NONE;
+    color: white;
+    
+}
+
+NAV UL LI a:hover{
+    color: rgb(153, 153, 226);
+}
+.LEFT{
+    font-size: 2.5REM;
+}
+.first{
+    display: flex;
+    justify-content: space-around;
+    margin: 23px 0;
+}
+.first>div{
+    width: 30%;
+}
+.leftsection{
+font-size: 2.55rem;
+margin: 70px 0;
+}
+.rightsection img {
+    width: 100%;
+    margin: 50px 0;
+    border-radius: 50%;
+    border: 10px solid transparent;
+    background-size: cover;
+    animation: borderAnimation 3s infinite alternate;
+}
+
+@keyframes borderAnimation {
+    0% {
+        border-color: #ff5733;
+    }
+    50% {
+        border-color: #7b1782;
+    }
+    100% {
+        border-color: #3357ff;
+    }
+}
+
+#element{
+    color:rgb(170,107,228);
+}
+.homesci a{
+    display: inline-flex;
+    color: white;
+    justify-content:center ;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    text-decoration: none
+}
+
+.homesci a:hover{
+    color:aqua;
+    box-shadow: 0 0 20px aqua;
+}
+
+.img-abt img{
+   padding-bottom: 20%;
+   max-width: 630px;
+   height: auto;
+   width: 75%;
+   border-radius: 8px;
+   margin: 90px 0;
+}
+.about{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    gap: 1.5rem;
+}
+.abt-text h2{
+    font-size: 60px;
+}
+.abt-text h2 span{
+    color: aqua;
+}
+
+.abt-text h4{
+    font-size: 29px;
+    font-weight: 600;
+    color: white;
+    line-height: 1.7;
+    margin: 15px 0 30px;
+}
+.abt-text p{
+    color: aliceblue;
+    font-size: 20px;
+    line-height: 1.4;
+    margin-bottom: 4rem;
+}
+
+p a:hover{
+    color: aqua;
+    box-shadow: 0 0 20px aqua;
+}
