@@ -16,11 +16,11 @@
         <nav>
          <div class="left">Rainy's Portfolio</div>
         <div class="right"><ul>
-            <LI><a href="/">HOME</a></LI>
-            <LI><a href="/">ABOUT</a></LI>
-            <LI><a href="/">SERVICES</a></LI>
-            <LI><a href="/">PROJECTS</a></LI>
-            <LI><a href="/">CONTACT ME!</a></LI>
+            <LI><a href="#first">HOME</a></LI>
+            <LI><a href="#about">ABOUT</a></LI>
+            <LI><a href="#skills-section">SERVICES</a></LI>
+            <LI><a href="#portfolio">PROJECTS</a></LI>
+            <LI><a href="#contact">CONTACT ME!</a></LI>
         </ul></div>
         </nav>
         
@@ -30,7 +30,7 @@
     <MAin>
         <SECTion class="first">
             <div class="leftsection">Hi! I am Rainy
-                <div>and I am a Web Developer</div>
+                <div>and I am a </div>
                 <span id="element"></span>
                 <br>
                 <div class="homesci">
@@ -45,7 +45,7 @@
                 <img src="./WhatsApp Image 2025-03-15 at 19.49.24_7d8bcc9a.jpg">
             </div>
         </SECTion>
-        <hr>
+
        <section class="about" id="about">
         <div class="img-abt"><img src="./development.png"></div>
         <div class="abt-text">
@@ -56,8 +56,8 @@
         </div>
        </section>
     </MAin>
-    <hr/>
-     <section class="skills-section">
+  
+     <section class="skills-section" id="skills-section">
         <h1 class="main-title">MY <span>TECHNICAL SKILLS</span></h1>
         
         <div class="skills-container">
@@ -180,7 +180,7 @@
         </div>
     </section>
 
-        <div class="container1">
+        <!-- <div class="container1">
             <h1 class="heading1">Professional Skills</h1>
             <div class="radialbars">
                 <div class="radialbar">
@@ -217,56 +217,74 @@
             </div>
            </div>
            
-    </section>
+    </section> -->
 
-    <section>
-        <div id="portfolio" id="project">
-            <div class="main-text" id="project">
-                <h2>Latest<span>Projects</span></h2>
-                <div class="portfolio-content">
-                    <div class="row">
-                        <img src="./WhatsApp Image 2025-05-16 at 13.21.34_c5528984.jpg" alt="Project 1">
-                        <div class="layer">
-                            <h5>HackYours</h5>
-                            <p>HackYours is an AI-powered platform that helps hackathon participants, organizers, and innovators go from brainstorming to finally pitching it — all in one place.</p>
-                            <a href="https://lnkd.in/gWSJE-ds" target="_blank">View Project</a>
-                        </div>
+    <section id="portfolio">
+        <div class="main-text">
+            <h2>Latest <span>Projects</span></h2>
+            <p class="section-subtitle">Showcasing my passion for innovation and problem-solving</p>
+        </div>
+
+
+
+        <div class="portfolio-content">
+            <div class="project-card">
+                <img src="./WhatsApp Image 2025-05-16 at 13.21.34_c5528984.jpg" alt="HackYours Project">
+                <div class="project-overlay">
+                    <h3 class="project-title">HackYours</h3>
+                    <p class="project-description">
+                        HackYours is an AI-powered platform that helps hackathon participants, organizers, and innovators go from brainstorming to finally pitching it — all in one place.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">AI/ML</span>
+                        <span class="tech-tag">React</span>
+                        <span class="tech-tag">Node.js</span>
+                        <span class="tech-tag">MongoDB</span>
                     </div>
-                    <div class="row">
-                        <img src="./WhatsApp Image 2025-05-16 at 13.30.08_63fc3d58.jpg" alt="Project 2">
-                        <div class="layer">
-                            <h5>Agrigram</h5>
-                            <p>Agrigram is a platform which helps farmers to approach to each
- and every aspect regarding farming, cultivation, agriculture,
- farms and get information about every single seeds as well as
- crops and it will help them to enhance their cultivation in a
- broader and enthusiast way</p>
-                            
-                        </div>
+                    <a href="https://lnkd.in/gWSJE-ds" target="_blank" class="project-link">
+                        View Project
+                    </a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="./WhatsApp Image 2025-05-16 at 13.30.08_63fc3d58.jpg" alt="Agrigram Project">
+                <div class="project-overlay">
+                    <h3 class="project-title">Agrigram</h3>
+                    <p class="project-description">
+                        Agrigram is a comprehensive platform that helps farmers access information about farming, cultivation, seeds, and crops. It enhances agricultural practices through digital innovation.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Agriculture</span>
+                        <span class="tech-tag">Web App</span>
+                        <span class="tech-tag">Database</span>
+                        <span class="tech-tag">API</span>
                     </div>
-                     <div class="row">
-                        <img src="./WhatsApp Image 2025-05-16 at 13.21.34_c5528984.jpg" alt="Project 1">
-                        <div class="layer">
-                            <h5>Spotify Clone</h5>
-                            <p>Developed a Spotify clone that replicates the core functionalities
- of the popular music streaming platform. Implemented user
- authentication, music playback, playlist creation, and a responsive
- UI for seamless user experience.</p>
-                        </div>
+                    <span class="project-link coming-soon">
+                        Coming Soon
+                    </span>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=500&h=400&fit=crop" alt="WonderLust Project">
+                <div class="project-overlay">
+                    <h3 class="project-title">WonderLust</h3>
+                    <p class="project-description">
+                        A full-stack Airbnb clone that allows users to book, list, and explore rental properties. Features include user authentication, property search, filtering, and responsive UI.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Full Stack</span>
+                        <span class="tech-tag">Express.js</span>
+                        <span class="tech-tag">EJS</span>
+                        <span class="tech-tag">Bootstrap</span>
                     </div>
-                     <div class="row">
-                        <img src="./WhatsApp Image 2025-05-16 at 13.21.34_c5528984.jpg" alt="Project 1">
-                        <div class="layer">
-                            <h5>WonderLust</h5>
-                            <p>A full-stack Airbnb clone that allows users to book, list, and explore rental properties.
-Features include user authentication, property search, filtering, and responsive UI.</p>
-                            <a href="https://lnkd.in/gWSJE-ds" target="_blank">View Project</a>
-                        </div>
-                    </div>
+                    <a href="https://lnkd.in/gWSJE-ds" target="_blank" class="project-link">
+                        View Project
+                    </a>
                 </div>
             </div>
         </div>
-
     </section>
     <section class="contact" id="contact">
     <div class="contact-text">
@@ -293,6 +311,7 @@ Features include user authentication, property search, filtering, and responsive
            <input type="submit" value="Submit" class="">
         </form>
     </section>
+    
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script>
         var typed = new Typed('#element', {
